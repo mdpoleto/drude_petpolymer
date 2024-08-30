@@ -26,8 +26,7 @@ DECL +CX1
 ! Model compounds
 
 RESI  3CB     -1.0000 ! Benzoate
-!
-!                           
+!                         
 !                   HG   HD2
 !                   |    |  
 !        (-)O1      CG---CD2  
@@ -38,22 +37,22 @@ RESI  3CB     -1.0000 ! Benzoate
 !                   |    |                           
 !                   HE1  HZ                   
 !                               
-!
 GROUP
-ATOM CE1    CD2R6A        -0.130  ALPHA   -1.4180  THOLE   1.3990
 ATOM CZ     CD2R6A        -0.115  ALPHA   -1.5075  THOLE   1.2701
 ATOM CE2    CD2R6A        -0.115  ALPHA   -1.5075  THOLE   1.2701
 ATOM CD2    CD2R6A        -0.115  ALPHA   -1.5075  THOLE   1.2701
+ATOM HZ     HDR6A          0.115 
+ATOM HE2    HDR6A          0.115 
+ATOM HD2    HDR6A          0.115
+GROUP
+ATOM CE1    CD2R6A        -0.130  ALPHA   -1.4180  THOLE   1.3990
 ATOM CG     CD2R6A        -0.130  ALPHA   -1.4180  THOLE   1.3990
 ATOM CD1    CD2R6A        -0.082  ALPHA   -1.0980  THOLE   0.8800
 ATOM CD3    CD2O2A         0.482  ALPHA   -1.0160  THOLE   0.7590
 ATOM O1     OD2C2A         0.000  ALPHA   -0.6990  THOLE   2.3990
 ATOM O2     OD2C2A         0.000  ALPHA   -0.6990  THOLE   2.3990 
 ATOM HG     HDR6A          0.130 
-ATOM HE1    HDR6A          0.130 
-ATOM HZ     HDR6A          0.115 
-ATOM HE2    HDR6A          0.115 
-ATOM HD2    HDR6A          0.115 
+ATOM HE1    HDR6A          0.130  
 ATOM LP1A   LPD           -0.350 
 ATOM LP1B   LPD           -0.350
 ATOM LP2A   LPD           -0.350
@@ -92,7 +91,6 @@ IC CZ   CE1   CD1 CG    0.0000  0.0000   0.0000  0.0000  0.0000
 IC CE2  CZ    CE1 CD1   0.0000  0.0000   0.0000  0.0000  0.0000
 
 RESI  MBOA      0.0000 ! Methyl benzoate
-!
 !                           
 !           H3   H2
 !           |    |  
@@ -104,16 +102,16 @@ RESI  MBOA      0.0000 ! Methyl benzoate
 !           |    |           |     
 !           H5   H6          H82    
 !                               
-!
 GROUP
-ATOM C2     CD2R6A        -0.100  ALPHA   -1.7440  THOLE   0.8010
-ATOM H2     HDR6A          0.100 
 ATOM C3     CD2R6A        -0.105  ALPHA   -1.6581  THOLE   1.3983
 ATOM H3     HDR6A          0.100 
 ATOM C4     CD2R6A        -0.120  ALPHA   -1.2734  THOLE   1.0833
 ATOM H4     HDR6A          0.130 
 ATOM C5     CD2R6A        -0.105  ALPHA   -1.6581  THOLE   1.3983
 ATOM H5     HDR6A          0.100 
+GROUP
+ATOM C2     CD2R6A        -0.100  ALPHA   -1.7440  THOLE   0.8010
+ATOM H2     HDR6A          0.100 
 ATOM C6     CD2R6A        -0.100  ALPHA   -1.7440  THOLE   0.8010
 ATOM H6     HDR6A          0.100 
 ATOM C1     CD2R6A         0.058  ALPHA   -0.8270  THOLE   1.1130
@@ -167,7 +165,6 @@ IC   O8   H83  *C8  H81  0.0000    0.00  120.00    0.00   0.0000
 IC   O8   H83  *C8  H82  0.0000    0.00 -120.00    0.00   0.0000
 
 RESI  2HEB      0.0000 ! 2-hydroxyethyl benzoate
-!
 !                           
 !            H2   H3
 !            |    |  
@@ -179,7 +176,6 @@ RESI  2HEB      0.0000 ! 2-hydroxyethyl benzoate
 !            |    |           |    |
 !            H6   H5          HD2 HE2
 !                               
-!
 GROUP
 ATOM C2     CD2R6A        -0.105  ALPHA   -1.6581  THOLE   1.3983
 ATOM H2     HDR6A          0.100
@@ -270,8 +266,6 @@ RESI  TPA     -2.0000 ! Terephthalate
 !                   |    |                           
 !                   H6   H5                   
 !                               
-!
-
 GROUP
 ATOM O1     OD2C2A         0.000  ALPHA   -0.6990  THOLE   2.3990 ! < RESI 3CB
 ATOM O2     OD2C2A         0.000  ALPHA   -0.6990  THOLE   2.3990 ! < RESI 3CB
@@ -344,8 +338,7 @@ IC C6   C4   C5   H5         0.0000    0.00  180.00    0.00   0.0000
 IC C1   C5   C6   H6         0.0000    0.00  180.00    0.00   0.0000
 
 
-RESI  MTPA      0.0000 ! 
-!
+RESI  MTPA      0.0000 ! Dimethyl Terephthalate
 !                           
 !      HA1          H2   H3
 !       |           |    |  
@@ -357,7 +350,6 @@ RESI  MTPA      0.0000 !
 !                   |    |           |     
 !                   H6   H5          HD2    
 !                               
-!
 GROUP
 ATOM CA     CD33D         -0.130  ALPHA   -0.576   THOLE   1.114 ! < RESI MBOA
 ATOM HA1    HDA3A          0.094                                 ! < RESI MBOA
@@ -449,7 +441,6 @@ IC  HD1   O3   *CD   HD3        0.0000    0.00 -120.00    0.00   0.0000
 
 
 RESI  12ED      0.0000  ! 1,2-Ethanediyl dibenzoate
-!
 !                           
 !            H2A  H3A                        H2B  H3B
 !            |    |                           |    |
@@ -461,16 +452,16 @@ RESI  12ED      0.0000  ! 1,2-Ethanediyl dibenzoate
 !            |    |           |   |           |    |
 !           H6A  H5A          HD2 HA2         H6B  H5B
 !                               
-!
 GROUP
-ATOM C2B    CD2R6A        -0.100  ALPHA   -1.7440  THOLE   0.8010
-ATOM H2B    HDR6A          0.100 
 ATOM C3B    CD2R6A        -0.105  ALPHA   -1.6581  THOLE   1.3983
 ATOM H3B    HDR6A          0.100 
 ATOM C4B    CD2R6A        -0.120  ALPHA   -1.2734  THOLE   1.0833
 ATOM H4B    HDR6A          0.130 
 ATOM C5B    CD2R6A        -0.105  ALPHA   -1.6581  THOLE   1.3983
 ATOM H5B    HDR6A          0.100 
+GROUP
+ATOM C2B    CD2R6A        -0.100  ALPHA   -1.7440  THOLE   0.8010
+ATOM H2B    HDR6A          0.100 
 ATOM C6B    CD2R6A        -0.100  ALPHA   -1.7440  THOLE   0.8010
 ATOM H6B    HDR6A          0.100 
 ATOM C1B    CD2R6A         0.058  ALPHA   -0.8270  THOLE   1.1130
@@ -486,14 +477,15 @@ ATOM LP1A   LPD           -0.170
 ATOM LP1B   LPD           -0.170
 ATOM LPRB   LPA1           0.000
 GROUP
-ATOM C3A    CD2R6A        -0.100  ALPHA   -1.7440  THOLE   0.8010
-ATOM H3A    HDR6A          0.100 
 ATOM C2A    CD2R6A        -0.105  ALPHA   -1.6581  THOLE   1.3983
 ATOM H2A    HDR6A          0.100 
 ATOM C1A    CD2R6A        -0.120  ALPHA   -1.2734  THOLE   1.0833
 ATOM H1A    HDR6A          0.130 
 ATOM C6A    CD2R6A        -0.105  ALPHA   -1.6581  THOLE   1.3983
 ATOM H6A    HDR6A          0.100 
+GROUP
+ATOM C3A    CD2R6A        -0.100  ALPHA   -1.7440  THOLE   0.8010
+ATOM H3A    HDR6A          0.100 
 ATOM C5A    CD2R6A        -0.100  ALPHA   -1.7440  THOLE   0.8010
 ATOM H5A    HDR6A          0.100 
 ATOM C4A    CD2R6A         0.058  ALPHA   -0.8270  THOLE   1.1130
@@ -579,8 +571,7 @@ IC  C6B   C4B  *C5B  H5B        0.0000    0.00  180.00    0.00   0.0000
 IC  C1B   C5B  *C6B  H6B        0.0000    0.00  180.00    0.00   0.0000
 
 RESI  EGDA      0.0000 ! Ethylene glycol diacetate, 1,2-Diacetoxyethane
-!                                                 
-!                                                   
+!                                                                                                   
 !       H41    O4          O2    H11         
 !        |    /             \\   |         
 !   H42--C4--CX2   HD1 HA1  CX1--C1--H12             
@@ -588,8 +579,7 @@ RESI  EGDA      0.0000 ! Ethylene glycol diacetate, 1,2-Diacetoxyethane
 !       H43    O3--CD--CA--O1    H13        
 !                  |   |                
 !                  HD2 HA2                
-!                                                                 
-!                                                                 
+!                                                                                                                               
 GROUP                                                             
 ATOM H11    HDA3A          0.090                                  ! < adjusted to balance charges
 ATOM H12    HDA3A          0.090                                  ! < adjusted to balance charges
@@ -670,11 +660,10 @@ IC  O1    CX1  C1    H13        0.0000    0.00  -60.00    0.00   0.0000
 
 
 !##############################################################
-! Ligands
+! PET-derived ligands
 !##############################################################
-RESI  MHET     -1.0000 ! 
-!
-!                           
+RESI  MHET     -1.0000 ! mono-(2-hydroxyethyl) terephthalate
+!                         
 !                   H2   H3
 !                   |    |  
 !        (-)O1      C2---C3      O4 
@@ -685,7 +674,6 @@ RESI  MHET     -1.0000 !
 !                   |    |           |    |
 !                   H6   H5          HD2 HE2
 !                               
-!
 GROUP
 ATOM O1     OD2C2A         0.000  ALPHA   -0.6990  THOLE   2.3990 ! whole group from 3cb
 ATOM O2     OD2C2A         0.000  ALPHA   -0.6990  THOLE   2.3990 ! 
@@ -783,8 +771,7 @@ IC OZ   CD   *CE  HE2        0.0000    0.00 -120.00    0.00   0.0000
 IC CD   CE   OZ   HZ         0.0000    0.00  180.00    0.00   0.0000
 
 
-RESI  BHET     0.0000
-!
+RESI  BHET     0.0000 ! bis-(2-hydroxyethyl) terephthalate
 !                           
 !            HB1 HA1         H2   H3
 !            |   |           |    |  
@@ -796,7 +783,6 @@ RESI  BHET     0.0000
 !                            |    |           |    |
 !                            H6   H5          HD2 HE2
 !                                        
-!
 GROUP
 ATOM OG     OD31B          0.000  ALPHA   -1.0106  THOLE   1.1402   ! whole group from 2heb
 ATOM HG     HDP1A          0.329                                    ! 
@@ -921,12 +907,11 @@ IC CA   CB   OG   HG         0.0000    0.00  180.00    0.00   0.0000
 
 
 !##############################################################
-! PET polymer
+! PET polymer residue
 !##############################################################
 
 RESI  PET      0.0000 ! Polyethylene terephthalate
-!
-!                           
+!                          
 !      HA1          H2   H3
 !       |           |    |  
 !     --CA--O1      C2---C3      O4 
@@ -937,7 +922,6 @@ RESI  PET      0.0000 ! Polyethylene terephthalate
 !                   |    |           |     
 !                   H6   H5          HD2    
 !                               
-!
 GROUP
 ATOM CA     CD32C         -0.036  ALPHA   -0.576   THOLE   1.114
 ATOM HA1    HDA2A          0.094 
@@ -1045,7 +1029,6 @@ PRES LMET         0.152 ! "N-terminus" (left) for PET polymer
 !              // 
 !             O2
 !
-! 
 GROUP 
 ATOM CA     CD33D         -0.130  ALPHA   -0.576   THOLE   1.114
 ATOM HA1    HDA3A          0.094 
@@ -1070,8 +1053,7 @@ PRES RMET         0.152 ! "C-terminus" (right) for PET polymer
 !        \    | 
 !         O3--CD--HD3
 !             |    
-!             HD2 
-!           
+!             HD2          
 ! 
 GROUP 
 ATOM CD     CD33D         -0.130  ALPHA   -0.576   THOLE   1.114
@@ -1215,8 +1197,6 @@ PRES LEOH        -0.158 ! "N-terminus" (left) for PET polymer
 !                       // 
 !                      O2
 !
-!
- 
 GROUP 
 ATOM O1     OD30C          0.000  ALPHA   -0.9355  THOLE   1.0573
 ATOM CA     CD32C         -0.028  ALPHA   -1.2108  THOLE   0.4220
@@ -1268,8 +1248,6 @@ PRES REOH        -0.158 ! "C-terminus" (right) for PET polymer
 !           |   |
 !           HD2 HE2 
 !
-!
- 
 GROUP 
 ATOM O3     OD30C          0.000  ALPHA   -0.9355  THOLE   1.0573
 ATOM CD     CD32C         -0.028  ALPHA   -1.2108  THOLE   0.4220
