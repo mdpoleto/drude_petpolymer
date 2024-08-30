@@ -39,10 +39,10 @@ RESI  3CB     -1.0000 ! Benzoate
 !                               
 GROUP
 ATOM CZ     CD2R6A        -0.115  ALPHA   -1.5075  THOLE   1.2701
-ATOM CE2    CD2R6A        -0.115  ALPHA   -1.5075  THOLE   1.2701
-ATOM CD2    CD2R6A        -0.115  ALPHA   -1.5075  THOLE   1.2701
 ATOM HZ     HDR6A          0.115 
+ATOM CE2    CD2R6A        -0.115  ALPHA   -1.5075  THOLE   1.2701
 ATOM HE2    HDR6A          0.115 
+ATOM CD2    CD2R6A        -0.115  ALPHA   -1.5075  THOLE   1.2701
 ATOM HD2    HDR6A          0.115
 GROUP
 ATOM CE1    CD2R6A        -0.130  ALPHA   -1.4180  THOLE   1.3990
